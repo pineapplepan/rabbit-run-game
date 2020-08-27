@@ -5,6 +5,7 @@ let paused = false;
 let gameOver = false;
 
 function preload() {
+  console.log("living the dream");
   game.preloadGame();
   song = loadSound("./assets/music.mp3");
 }
