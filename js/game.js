@@ -9,37 +9,37 @@ class Game {
   preloadGame() {
     this.backgroundImgs = [
       {
-        src: loadImage("../assets/background/plx-1.png"),
+        src: loadImage("assets/background/plx-1.png"),
         x: 0,
         speed: 1,
       },
       {
-        src: loadImage("../assets/background/plx-2.png"),
+        src: loadImage("assets/background/plx-2.png"),
         x: 0,
         speed: 2,
       },
       {
-        src: loadImage("../assets/background/plx-3.png"),
+        src: loadImage("assets/background/plx-3.png"),
         x: 0,
         speed: 3,
       },
       {
-        src: loadImage("../assets/background/plx-4.png"),
+        src: loadImage("assets/background/plx-4.png"),
         x: 0,
         speed: 4,
       },
       {
-        src: loadImage("../assets/background/plx-5.png"),
+        src: loadImage("assets/background/plx-5.png"),
         x: 0,
         speed: 5,
       },
     ];
-    this.playerImg = loadImage("../assets/player/player.gif");
+    this.playerImg = loadImage("assets/player/player.gif");
     this.obstaclesImg = [
-      { src: loadImage("../assets/obstacles/heart001.png") },
-      { src: loadImage("../assets/obstacles/heart002.png") },
-      { src: loadImage("../assets/obstacles/heart003.png") },
-      { src: loadImage("../assets/obstacles/heart004.png") },
+      { src: loadImage("assets/obstacles/heart001.png") },
+      { src: loadImage("assets/obstacles/heart002.png") },
+      { src: loadImage("assets/obstacles/heart003.png") },
+      { src: loadImage("assets/obstacles/heart004.png") },
     ];
     this.mushroomImg = [];
     for (let i = 1; i <= 7; i++) {
