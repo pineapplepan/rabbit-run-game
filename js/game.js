@@ -143,7 +143,7 @@ class Game {
       pop();
     }
 
-    if (this.timerValue === 0 && this.score < 5) {
+    if (this.timerValue === 0 && this.score < 10) {
       push();
       textSize(80);
       textAlign(CENTER);
@@ -156,7 +156,7 @@ class Game {
       pop();
     }
 
-    if (this.timerValue === 0 && this.score >= 5) {
+    if (this.timerValue === 0 && this.score >= 10) {
       push();
       textSize(80);
       textAlign(CENTER);
