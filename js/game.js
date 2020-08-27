@@ -143,11 +143,11 @@ class Game {
       pop();
     }
 
-    if (this.timerValue === 0 && this.score < 10) {
+    if (this.timerValue === 0 && this.score < 5) {
       push();
       textSize(80);
       textAlign(CENTER);
-      text(`GAME OVER`, 400, 250);
+      text(`GAME OVER.`, 400, 250);
       textSize(40);
       text("Press ENTER to restart", 400, 400);
       gameOver = true;
@@ -156,15 +156,15 @@ class Game {
       pop();
     }
 
-    if (this.timerValue === 0 && this.score >= 10) {
+    if (this.timerValue === 0 && this.score >= 5) {
       push();
       textSize(80);
       textAlign(CENTER);
-      text(`CONGRATS!`, 450, 250);
-      text(`🎉🎉🎉`, 450, 330);
-      text(`YOU WON!!`, 450, 410);
+      text(`Congratulations!`, 400, 250);
+      // text(`🎉🎉🎉`, 450, 330);
+      text(`YOU WON.`, 400, 300);
       textSize(40);
-      text("Press ENTER to restart", 450, 500);
+      text("Press ENTER to restart", 400, 400);
       gameOver = true;
       song.stop();
       noLoop();
