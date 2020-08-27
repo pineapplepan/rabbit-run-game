@@ -1,4 +1,5 @@
 # rabbit-run-game
 hello! this is the first project during web dev bootcamp in berlin. it is a relaxing jump & run game. <br>
-the rabbit gets to gather food elements and avoid mushroom obstacles on his way through the mountains. <br>
-here ist the link: https://pineapplepan.github.io/rabbit-run-game/
+the rabbit has to gather food elements in order to get the points. avoid the mushrooms as they withdraw the score. <br>
+enjoy your way through the mountains! here is the link => <br>
+https://pineapplepan.github.io/rabbit-run-game/
