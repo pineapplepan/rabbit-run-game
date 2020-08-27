@@ -3,7 +3,7 @@ class Game {
     this.obstacles = [];
     this.mushrooms = [];
     this.score = 0;
-    this.timerValue = 60;
+    this.timerValue = 30;
   }
 
   preloadGame() {
