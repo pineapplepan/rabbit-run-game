@@ -162,7 +162,7 @@ class Game {
       textAlign(CENTER);
       text(`Congratulations!`, 400, 250);
       // text(`🎉🎉🎉`, 450, 330);
-      text(`YOU WON.`, 400, 300);
+      text(`YOU WON.`, 400, 350);
       textSize(40);
       text("Press ENTER to restart", 400, 400);
       gameOver = true;
